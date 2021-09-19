@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task</title>
+    <link rel="stylesheet" href="src\css\reset.css">
+    <link rel="stylesheet" href="src\css\style.css"> 
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="src\img\svg\groupLogo.svg" alt="Jane Doe" class="header__logo-pic">
+                    </a>
+                </div>
+    
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Jane Doe</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link" >Tell us about yourself</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#!" class="header__link">Slider</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <div class="wrapper">
+                <div class="wrapper__tittle">
+                    <div class="intro__pic">
+                        <img src="src\img\JanePic.png" width="528px" height="600px" alt="Jane" class="janePic">
+                    </div>
+                    <div class="intro__content">
+                        <div class="intro__name">
+                            <h1 class="intro__tittle">
+                                Jane Doe
+                            </h1>
+                        </div>
+                        <div class="intro__info">
+                            <ul class="intro__list">
+                                <li class="intro__item">
+                                    <div class="intro__item-pair">
+                                        <div class="intro__item-purp">
+                                            Date of birth
+                                        </div>
+                                        <div class="intro__item-norm">
+                                            21.04.2001
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="intro__item">
+                                    <div class="intro__item-pair">
+                                        <div class="intro__item-purp">
+                                            Gender
+                                        </div>
+                                        <div class="intro__item-norm">
+                                            Female
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="intro__item">
+                                    <div class="intro__item-pair">
+                                        <div class="intro__item-purp">
+                                            Country
+                                        </div>
+                                        <div class="intro__item-norm">
+                                            Corea
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="intro__about">
+                            <h2 class="intro__about-me">
+                                About me
+                            </h2>
+                        </div>
+                        <div class="intro__text">
+                            <p class="intro__text-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <br>
+                            <p class="intro__text-content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                    
+                        
+                    
+                </div>
+                
+
+                
+            </div>
+        </section>
+        <section class="forma">
+            <div class="wrapper">
+                <div class="forma__title">
+                    Tell us about yourself
+                </div>
+                <div class="forma__inputPanel1">
+                    <div class="forma__input-name">
+                        <p class="textOnTop">
+                            Your name
+                        </p>
+                        <input class="forma__name" placeholder="Tell us your name" type="text">
+                    </div>
+                    <div class="forma__input-gender">
+                        <p class="textOnTop">
+                            Your Gender
+                        </p>
+
+                        <input type="text" list="genders">
+                        <datalist id="genders">
+                            <option value="Male" label="Male">
+                            <option value="Female" label="Female">
+                        </datalist>
+                    </div>
+                </div>
+                <div class="forma__inputPanel2">
+                    <div class="forma__input-country">
+                        <p class="textOnTop">
+                            Your country
+                        </p>
+                        <input class="forma__country" placeholder="Where are you from?" type="text">
+                    </div>
+                    <div class="forma__input-city">
+                        <p class="textOnTop">
+                            Your city
+                        </p>
+                        <input class="forma__city" placeholder="Your native city" type="text">
+                    </div>
+                    <div class="forma__input-date">
+                        <p class="textOnTop">
+                            Your date of birth
+                        </p>
+                        <input class="forma__country" placeholder="dd.mm.yyyy" type="date">
+                    </div>
+                </div>
+                <div class="forma_inputPanel3">
+                    <div class="formaPanel3Item">
+                        <p class="forma__inputPanel3-text">Proof your identity with some documents</p>
+                    </div>
+                    <div class="formaPanel3Item">
+                        <button class="addDocument">
+                            Add document
+                        </button>
+                    </div>
+                </div>
+                <button class="sendInfo">
+                    Send info
+                </button>
+            </div>
+        </section>
+        <section class="slider-panel">
+            
+                <div class="all">
+                    <input checked type="radio" name="respond" id="desktop">
+                        <article id="slider">
+                                <input checked type="radio" name="slider" id="switch1">
+                                <input type="radio" name="slider" id="switch2">
+                                <input type="radio" name="slider" id="switch3">
+
+                            <div id="slides">
+                                <div id="overflow">
+                                    <div class="image">
+                                        <article><img src="src\img\slide1.png"></article>
+                                        <article><img src="src\img\slide2.png"></article>
+                                        <article><img src="src\img\slide3.png"></article>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="controls">
+                                <label for="switch1"></label>
+                                <label for="switch2"></label>
+                                <label for="switch3"></label>
+
+                            </div>
+                            <div id="active">
+                                <label for="switch1"></label>
+                                <label for="switch2"></label>
+                                <label for="switch3"></label>
+
+                            </div>
+                        </article>
+                </div>
+                
+            
+        </section>
+    </main>
+    <script src="scripts\scripts.js"></script>
+</body>
+</html>
